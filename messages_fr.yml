@@ -1,0 +1,48 @@
+# FRENCH LANGUAGE
+
+prefix: "<gradient:#FFAA00:#FF5500>&lCOMBAT</gradient> <dark_gray>➤</dark_gray>"
+
+combat-tagged: "{prefix} <gradient:#FFFFFF:#FFD37A>Vous êtes maintenant </gradient><gradient:#FF5555:#FF0000>en combat</gradient><gradient:#FFFFFF:#FFD37A> ! Ne vous déconnectez pas pendant </gradient><gradient:#FFE066:#FFAA00>{countdown}</gradient><gradient:#FFFFFF:#FFD37A> secondes.</gradient>"
+
+tag-removed: "{prefix} <gradient:#55FF55:#00AA55>Vous n'êtes plus en combat.</gradient>"
+
+cannot-freehit: "{prefix} <gradient:#FF5555:#AA0000>Vous ne pouvez pas interférer dans le combat d'un autre joueur !</gradient>"
+
+warning: "{prefix} <gradient:#FFE066:#FFAA00>Avertissement {warning}/{max} : </gradient><gradient:#FFFFFF:#FFD37A>Vous avez interrompu un combat en cours !</gradient>"
+
+kicked-message: "<gradient:#FF5555:#AA0000>Vous avez été expulsé pour avoir interrompu des combats à répétition !</gradient>"
+kick-broadcast: "{prefix} <gradient:#AAAAAA:#777777>Le joueur </gradient><gradient:#FFFFFF:#FFD37A>{player}</gradient><gradient:#AAAAAA:#777777> a été expulsé pour </gradient><gradient:#FF5555:#FF0000>freehit</gradient><gradient:#AAAAAA:#777777>.</gradient>"
+
+banned-message: "<gradient:#FF5555:#880000>Vous avez été banni pour avoir interrompu des combats à répétition !</gradient>"
+ban-broadcast: "{prefix} <gradient:#AAAAAA:#777777>Le joueur </gradient><gradient:#FFFFFF:#FFD37A>{player}</gradient><gradient:#AAAAAA:#777777> a été banni pour </gradient><gradient:#FF5555:#FF0000>freehit</gradient><gradient:#AAAAAA:#777777>.</gradient>"
+
+combat-log: "{prefix} <gradient:#FF4444:#AA0000>Vous vous êtes déconnecté en combat et avez été tué !</gradient>"
+
+command-blocked: "{prefix} <gradient:#FF5555:#AA0000>Vous ne pouvez pas utiliser de commandes en combat !</gradient>"
+teleport-blocked: "{prefix} <gradient:#FF5555:#AA0000>Vous ne pouvez pas vous téléporter en combat !</gradient>"
+
+whitelist-added: "{prefix} <gradient:#55FF55:#00AA55>Le joueur </gradient><gradient:#FFFFFF:#FFD37A>{player}</gradient><gradient:#55FF55:#00AA55> a été ajouté à la whitelist.</gradient>"
+whitelist-removed: "{prefix} <gradient:#55FF55:#00AA55>Le joueur </gradient><gradient:#FFFFFF:#FFD37A>{player}</gradient><gradient:#55FF55:#00AA55> a été retiré de la whitelist.</gradient>"
+whitelist-already: "{prefix} <gradient:#FFE066:#FFAA00>Le joueur </gradient><gradient:#FFFFFF:#FFD37A>{player}</gradient><gradient:#FFE066:#FFAA00> est déjà dans la whitelist.</gradient>"
+whitelist-not: "{prefix} <gradient:#FFE066:#FFAA00>Le joueur </gradient><gradient:#FFFFFF:#FFD37A>{player}</gradient><gradient:#FFE066:#FFAA00> n'est pas dans la whitelist.</gradient>"
+
+whitelist-list: "{prefix} <gradient:#FFE066:#FFAA00>Joueurs whitelistés : </gradient><gradient:#FFFFFF:#FFD37A>{players}</gradient>"
+whitelist-empty: "{prefix} <gradient:#FFE066:#FFAA00>Aucun joueur n'est whitelisté.</gradient>"
+
+reload-success: "{prefix} <gradient:#55FF55:#00AA55>Configuration rechargée avec succès !</gradient>"
+
+no-permission: "{prefix} <gradient:#FF5555:#AA0000>Vous n'avez pas la permission d'utiliser cette commande !</gradient>"
+player-not-found: "{prefix} <gradient:#FF5555:#AA0000>Joueur introuvable.</gradient>"
+invalid-usage: "{prefix} <gradient:#FF5555:#AA0000>Utilisation invalide ! Usage correct : </gradient><gradient:#FFFFFF:#FFD37A>{usage}</gradient>"
+
+kick-disabled: "{prefix} <gradient:#FFE066:#FFAA00>Le système de kick est désactivé.</gradient>"
+no-logs: "{prefix} <gradient:#FFE066:#FFAA00>Aucun log de kick disponible.</gradient>"
+
+logs-header: "{prefix} <gradient:#FFE066:#FFAA00>Logs de kick ({count}) :</gradient>"
+log-format: "<gradient:#AAAAAA:#777777>{time} </gradient><gradient:#FFFFFF:#FFD37A>{player} </gradient><gradient:#AAAAAA:#777777>expulsé pour </gradient><gradient:#FF5555:#FF0000>{reason}</gradient>"
+
+help-header: "<gradient:#FFAA00:#FF5500>&lCommandes AntiFreehit</gradient>"
+help-reload: "<gradient:#AAAAAA:#777777>/afh reload</gradient> <gradient:#FFFFFF:#FFD37A>- Recharger la configuration</gradient>"
+help-whitelist: "<gradient:#AAAAAA:#777777>/afh whitelist [add/remove/list] <player></gradient> <gradient:#FFFFFF:#FFD37A>- Gérer la whitelist</gradient>"
+help-logs: "<gradient:#AAAAAA:#777777>/afh logs</gradient> <gradient:#FFFFFF:#FFD37A>- Voir les logs</gradient>"
+help-info: "<gradient:#AAAAAA:#777777>/afh</gradient> <gradient:#FFFFFF:#FFD37A>- Informations du plugin</gradient>"

@@ -1,0 +1,55 @@
+# ================================================================================= #
+#     _              _     _   _____                        _       _   _           #
+#    / \     _ __   | |_  (_) |  ___|  _ __    ___    ___  | |__   (_) | |_         #
+#   / _ \   | '_ \  | __| | | | |_    | '__|  / _ \  / _ \ | '_ \  | | | __|        #
+#  / ___ \  | | | | | |_  | | |  _|   | |    |  __/ |  __/ | | | | | | | |_         #
+# /_/   \_\ |_| |_|  \__| |_| |_|     |_|     \___|  \___| |_| |_| |_|  \__|        #
+#                         Messages configuration V-1.2.0                            #
+# ================================================================================= #
+
+prefix: "<gradient:#FFAA00:#FF5500><bold>COMBAT</gradient> <dark_gray>➤</dark_gray>"
+
+combat-tagged: "{prefix} <gradient:#FFFFFF:#FFD37A>You are now </gradient><gradient:#FF5555:#FF0000>in combat</gradient><gradient:#FFFFFF:#FFD37A>! Do not log out for </gradient><gradient:#FFE066:#FFAA00>{countdown}</gradient><gradient:#FFFFFF:#FFD37A> seconds.</gradient>"
+
+tag-removed: "{prefix} <gradient:#55FF55:#00AA55>You are no longer in combat.</gradient>"
+
+cannot-freehit: "{prefix} <gradient:#FF5555:#AA0000>You cannot interfere in another player's fight!</gradient>"
+
+warning: "{prefix} <gradient:#FFE066:#FFAA00>Warning {warning}/{max}: </gradient><gradient:#FFFFFF:#FFD37A>You interrupted an ongoing fight!</gradient>"
+
+kicked-message: "<gradient:#FF5555:#AA0000>You were kicked for repeatedly interrupting fights!</gradient>"
+kick-broadcast: "{prefix} <gradient:#AAAAAA:#777777>Player </gradient><gradient:#FFFFFF:#FFD37A>{player}</gradient><gradient:#AAAAAA:#777777> was kicked for </gradient><gradient:#FF5555:#FF0000>freehitting</gradient><gradient:#AAAAAA:#777777>.</gradient>"
+
+banned-message: "<gradient:#FF5555:#880000>You have been banned for repeatedly interrupting fights!</gradient>"
+ban-broadcast: "{prefix} <gradient:#AAAAAA:#777777>Player </gradient><gradient:#FFFFFF:#FFD37A>{player}</gradient><gradient:#AAAAAA:#777777> was banned for </gradient><gradient:#FF5555:#FF0000>freehitting</gradient><gradient:#AAAAAA:#777777>.</gradient>"
+
+combat-log: "{prefix} <gradient:#FF4444:#AA0000>You logged out during combat and were killed!</gradient>"
+
+command-blocked: "{prefix} <gradient:#FF5555:#AA0000>You cannot use commands while in combat!</gradient>"
+teleport-blocked: "{prefix} <gradient:#FF5555:#AA0000>You cannot teleport while in combat!</gradient>"
+
+whitelist-added: "{prefix} <gradient:#55FF55:#00AA55>Player </gradient><gradient:#FFFFFF:#FFD37A>{player}</gradient><gradient:#55FF55:#00AA55> has been added to the whitelist.</gradient>"
+whitelist-removed: "{prefix} <gradient:#55FF55:#00AA55>Player </gradient><gradient:#FFFFFF:#FFD37A>{player}</gradient><gradient:#55FF55:#00AA55> has been removed from the whitelist.</gradient>"
+whitelist-already: "{prefix} <gradient:#FFE066:#FFAA00>Player </gradient><gradient:#FFFFFF:#FFD37A>{player}</gradient><gradient:#FFE066:#FFAA00> is already whitelisted.</gradient>"
+whitelist-not: "{prefix} <gradient:#FFE066:#FFAA00>Player </gradient><gradient:#FFFFFF:#FFD37A>{player}</gradient><gradient:#FFE066:#FFAA00> is not whitelisted.</gradient>"
+
+whitelist-list: "{prefix} <gradient:#FFE066:#FFAA00>Whitelisted players: </gradient><gradient:#FFFFFF:#FFD37A>{players}</gradient>"
+whitelist-empty: "{prefix} <gradient:#FFE066:#FFAA00>No players are currently whitelisted.</gradient>"
+
+reload-success: "{prefix} <gradient:#55FF55:#00AA55>Configuration successfully reloaded!</gradient>"
+
+no-permission: "{prefix} <gradient:#FF5555:#AA0000>You do not have permission to use this command!</gradient>"
+player-not-found: "{prefix} <gradient:#FF5555:#AA0000>That player could not be found.</gradient>"
+invalid-usage: "{prefix} <gradient:#FF5555:#AA0000>Invalid usage! Correct usage: </gradient><gradient:#FFFFFF:#FFD37A>{usage}</gradient>"
+
+kick-disabled: "{prefix} <gradient:#FFE066:#FFAA00>Kick system is disabled. Enable it in the config to view logs.</gradient>"
+no-logs: "{prefix} <gradient:#FFE066:#FFAA00>No kick logs available.</gradient>"
+
+logs-header: "{prefix} <gradient:#FFE066:#FFAA00>Kick Logs ({count}):</gradient>"
+log-format: "<gradient:#AAAAAA:#777777>{time} </gradient><gradient:#FFFFFF:#FFD37A>{player} </gradient><gradient:#AAAAAA:#777777>kicked for </gradient><gradient:#FF5555:#FF0000>{reason}</gradient>"
+
+help-header: "<gradient:#FFAA00:#FF5500><bold>AntiFreehit Commands</gradient>"
+help-reload: "<gradient:#AAAAAA:#777777>/afh reload</gradient> <gradient:#FFFFFF:#FFD37A>- Reload configuration</gradient>"
+help-whitelist: "<gradient:#AAAAAA:#777777>/afh whitelist [add/remove/list] <player></gradient> <gradient:#FFFFFF:#FFD37A>- Manage whitelist</gradient>"
+help-logs: "<gradient:#AAAAAA:#777777>/afh logs</gradient> <gradient:#FFFFFF:#FFD37A>- View kick logs</gradient>"
+help-info: "<gradient:#AAAAAA:#777777>/afh</gradient> <gradient:#FFFFFF:#FFD37A>- Show plugin information</gradient>"

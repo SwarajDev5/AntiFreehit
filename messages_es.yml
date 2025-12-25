@@ -1,0 +1,48 @@
+# SPANISH LANGUAGE
+
+prefix: "<gradient:#FFAA00:#FF5500>&lCOMBAT</gradient> <dark_gray>➤</dark_gray>"
+
+combat-tagged: "{prefix} <gradient:#FFFFFF:#FFD37A>Ahora estás </gradient><gradient:#FF5555:#FF0000>en combate</gradient><gradient:#FFFFFF:#FFD37A>! No cierres sesión durante </gradient><gradient:#FFE066:#FFAA00>{countdown}</gradient><gradient:#FFFFFF:#FFD37A> segundos.</gradient>"
+
+tag-removed: "{prefix} <gradient:#55FF55:#00AA55>Ya no estás en combate.</gradient>"
+
+cannot-freehit: "{prefix} <gradient:#FF5555:#AA0000>No puedes interferir en el combate de otro jugador.</gradient>"
+
+warning: "{prefix} <gradient:#FFE066:#FFAA00>Advertencia {warning}/{max}: </gradient><gradient:#FFFFFF:#FFD37A>¡Has interrumpido un combate en curso!</gradient>"
+
+kicked-message: "<gradient:#FF5555:#AA0000>Has sido expulsado por interrumpir combates repetidamente.</gradient>"
+kick-broadcast: "{prefix} <gradient:#AAAAAA:#777777>El jugador </gradient><gradient:#FFFFFF:#FFD37A>{player}</gradient><gradient:#AAAAAA:#777777> fue expulsado por </gradient><gradient:#FF5555:#FF0000>freehit</gradient><gradient:#AAAAAA:#777777>.</gradient>"
+
+banned-message: "<gradient:#FF5555:#880000>Has sido baneado por interrumpir combates repetidamente.</gradient>"
+ban-broadcast: "{prefix} <gradient:#AAAAAA:#777777>El jugador </gradient><gradient:#FFFFFF:#FFD37A>{player}</gradient><gradient:#AAAAAA:#777777> fue baneado por </gradient><gradient:#FF5555:#FF0000>freehit</gradient><gradient:#AAAAAA:#777777>.</gradient>"
+
+combat-log: "{prefix} <gradient:#FF4444:#AA0000>Cerraste sesión durante el combate y fuiste eliminado.</gradient>"
+
+command-blocked: "{prefix} <gradient:#FF5555:#AA0000>No puedes usar comandos mientras estás en combate.</gradient>"
+teleport-blocked: "{prefix} <gradient:#FF5555:#AA0000>No puedes teletransportarte mientras estás en combate.</gradient>"
+
+whitelist-added: "{prefix} <gradient:#55FF55:#00AA55>El jugador </gradient><gradient:#FFFFFF:#FFD37A>{player}</gradient><gradient:#55FF55:#00AA55> ha sido añadido a la whitelist.</gradient>"
+whitelist-removed: "{prefix} <gradient:#55FF55:#00AA55>El jugador </gradient><gradient:#FFFFFF:#FFD37A>{player}</gradient><gradient:#55FF55:#00AA55> ha sido eliminado de la whitelist.</gradient>"
+whitelist-already: "{prefix} <gradient:#FFE066:#FFAA00>El jugador </gradient><gradient:#FFFFFF:#FFD37A>{player}</gradient><gradient:#FFE066:#FFAA00> ya está en la whitelist.</gradient>"
+whitelist-not: "{prefix} <gradient:#FFE066:#FFAA00>El jugador </gradient><gradient:#FFFFFF:#FFD37A>{player}</gradient><gradient:#FFE066:#FFAA00> no está en la whitelist.</gradient>"
+
+whitelist-list: "{prefix} <gradient:#FFE066:#FFAA00>Jugadores en whitelist: </gradient><gradient:#FFFFFF:#FFD37A>{players}</gradient>"
+whitelist-empty: "{prefix} <gradient:#FFE066:#FFAA00>No hay jugadores en la whitelist.</gradient>"
+
+reload-success: "{prefix} <gradient:#55FF55:#00AA55>¡Configuración recargada correctamente!</gradient>"
+
+no-permission: "{prefix} <gradient:#FF5555:#AA0000>No tienes permiso para usar este comando.</gradient>"
+player-not-found: "{prefix} <gradient:#FF5555:#AA0000>Jugador no encontrado.</gradient>"
+invalid-usage: "{prefix} <gradient:#FF5555:#AA0000>Uso inválido. Uso correcto: </gradient><gradient:#FFFFFF:#FFD37A>{usage}</gradient>"
+
+kick-disabled: "{prefix} <gradient:#FFE066:#FFAA00>El sistema de expulsión está desactivado.</gradient>"
+no-logs: "{prefix} <gradient:#FFE066:#FFAA00>No hay registros de expulsiones disponibles.</gradient>"
+
+logs-header: "{prefix} <gradient:#FFE066:#FFAA00>Registros de expulsión ({count}):</gradient>"
+log-format: "<gradient:#AAAAAA:#777777>{time} </gradient><gradient:#FFFFFF:#FFD37A>{player} </gradient><gradient:#AAAAAA:#777777>expulsado por </gradient><gradient:#FF5555:#FF0000>{reason}</gradient>"
+
+help-header: "<gradient:#FFAA00:#FF5500>&lComandos AntiFreehit</gradient>"
+help-reload: "<gradient:#AAAAAA:#777777>/afh reload</gradient> <gradient:#FFFFFF:#FFD37A>- Recargar configuración</gradient>"
+help-whitelist: "<gradient:#AAAAAA:#777777>/afh whitelist [add/remove/list] <player></gradient> <gradient:#FFFFFF:#FFD37A>- Administrar whitelist</gradient>"
+help-logs: "<gradient:#AAAAAA:#777777>/afh logs</gradient> <gradient:#FFFFFF:#FFD37A>- Ver registros</gradient>"
+help-info: "<gradient:#AAAAAA:#777777>/afh</gradient> <gradient:#FFFFFF:#FFD37A>- Información del plugin</gradient>"

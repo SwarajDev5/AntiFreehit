@@ -1,0 +1,48 @@
+# RUSSIAN LANGUAGE
+
+prefix: "<gradient:#FFAA00:#FF5500>&lCOMBAT</gradient> <dark_gray>➤</dark_gray>"
+
+combat-tagged: "{prefix} <gradient:#FFFFFF:#FFD37A>Вы сейчас </gradient><gradient:#FF5555:#FF0000>в бою</gradient><gradient:#FFFFFF:#FFD37A>! Не выходите из игры в течение </gradient><gradient:#FFE066:#FFAA00>{countdown}</gradient><gradient:#FFFFFF:#FFD37A> секунд.</gradient>"
+
+tag-removed: "{prefix} <gradient:#55FF55:#00AA55>Вы больше не в бою.</gradient>"
+
+cannot-freehit: "{prefix} <gradient:#FF5555:#AA0000>Вы не можете вмешиваться в бой другого игрока!</gradient>"
+
+warning: "{prefix} <gradient:#FFE066:#FFAA00>Предупреждение {warning}/{max}: </gradient><gradient:#FFFFFF:#FFD37A>Вы вмешались в чужой бой!</gradient>"
+
+kicked-message: "<gradient:#FF5555:#AA0000>Вы были кикнуты за постоянное вмешательство в бои!</gradient>"
+kick-broadcast: "{prefix} <gradient:#AAAAAA:#777777>Игрок </gradient><gradient:#FFFFFF:#FFD37A>{player}</gradient><gradient:#AAAAAA:#777777> был кикнут за </gradient><gradient:#FF5555:#FF0000>freehit</gradient><gradient:#AAAAAA:#777777>.</gradient>"
+
+banned-message: "<gradient:#FF5555:#880000>Вы были забанены за постоянное вмешательство в бои!</gradient>"
+ban-broadcast: "{prefix} <gradient:#AAAAAA:#777777>Игрок </gradient><gradient:#FFFFFF:#FFD37A>{player}</gradient><gradient:#AAAAAA:#777777> был забанен за </gradient><gradient:#FF5555:#FF0000>freehit</gradient><gradient:#AAAAAA:#777777>.</gradient>"
+
+combat-log: "{prefix} <gradient:#FF4444:#AA0000>Вы вышли во время боя и были убиты!</gradient>"
+
+command-blocked: "{prefix} <gradient:#FF5555:#AA0000>Вы не можете использовать команды в бою!</gradient>"
+teleport-blocked: "{prefix} <gradient:#FF5555:#AA0000>Телепортация в бою запрещена!</gradient>"
+
+whitelist-added: "{prefix} <gradient:#55FF55:#00AA55>Игрок </gradient><gradient:#FFFFFF:#FFD37A>{player}</gradient><gradient:#55FF55:#00AA55> добавлен в whitelist.</gradient>"
+whitelist-removed: "{prefix} <gradient:#55FF55:#00AA55>Игрок </gradient><gradient:#FFFFFF:#FFD37A>{player}</gradient><gradient:#55FF55:#00AA55> удалён из whitelist.</gradient>"
+whitelist-already: "{prefix} <gradient:#FFE066:#FFAA00>Игрок </gradient><gradient:#FFFFFF:#FFD37A>{player}</gradient><gradient:#FFE066:#FFAA00> уже в whitelist.</gradient>"
+whitelist-not: "{prefix} <gradient:#FFE066:#FFAA00>Игрок </gradient><gradient:#FFFFFF:#FFD37A>{player}</gradient><gradient:#FFE066:#FFAA00> не в whitelist.</gradient>"
+
+whitelist-list: "{prefix} <gradient:#FFE066:#FFAA00>Whitelist игроки: </gradient><gradient:#FFFFFF:#FFD37A>{players}</gradient>"
+whitelist-empty: "{prefix} <gradient:#FFE066:#FFAA00>Whitelist пуст.</gradient>"
+
+reload-success: "{prefix} <gradient:#55FF55:#00AA55>Конфигурация успешно перезагружена!</gradient>"
+
+no-permission: "{prefix} <gradient:#FF5555:#AA0000>У вас нет прав на эту команду!</gradient>"
+player-not-found: "{prefix} <gradient:#FF5555:#AA0000>Игрок не найден.</gradient>"
+invalid-usage: "{prefix} <gradient:#FF5555:#AA0000>Неверное использование! Правильно: </gradient><gradient:#FFFFFF:#FFD37A>{usage}</gradient>"
+
+kick-disabled: "{prefix} <gradient:#FFE066:#FFAA00>Система кика отключена.</gradient>"
+no-logs: "{prefix} <gradient:#FFE066:#FFAA00>Логи киков отсутствуют.</gradient>"
+
+logs-header: "{prefix} <gradient:#FFE066:#FFAA00>Логи киков ({count}):</gradient>"
+log-format: "<gradient:#AAAAAA:#777777>{time} </gradient><gradient:#FFFFFF:#FFD37A>{player} </gradient><gradient:#AAAAAA:#777777>кикнут за </gradient><gradient:#FF5555:#FF0000>{reason}</gradient>"
+
+help-header: "<gradient:#FFAA00:#FF5500>&lКоманды AntiFreehit</gradient>"
+help-reload: "<gradient:#AAAAAA:#777777>/afh reload</gradient> <gradient:#FFFFFF:#FFD37A>- Перезагрузить конфиг</gradient>"
+help-whitelist: "<gradient:#AAAAAA:#777777>/afh whitelist [add/remove/list] <player></gradient> <gradient:#FFFFFF:#FFD37A>- Управление whitelist</gradient>"
+help-logs: "<gradient:#AAAAAA:#777777>/afh logs</gradient> <gradient:#FFFFFF:#FFD37A>- Просмотр логов</gradient>"
+help-info: "<gradient:#AAAAAA:#777777>/afh</gradient> <gradient:#FFFFFF:#FFD37A>- Информация о плагине</gradient>"
